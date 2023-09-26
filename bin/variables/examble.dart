@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 class Kia {
   String? name;
   String? price;
