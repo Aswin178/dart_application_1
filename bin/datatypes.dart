@@ -16,4 +16,5 @@ void main() {
   print("my number is $phone");
   print("$cgpa is my CGPA in graduation");
   print("my email is $email");
+  print(age);
 }

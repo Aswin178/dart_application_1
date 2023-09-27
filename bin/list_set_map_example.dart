@@ -52,4 +52,23 @@ void main() {
   print(set1.union(set2));
   print(set1.intersection(set2));
   print(set2.difference(set1));
+
+  //map-store values as key-value pair keys must be unique values can
+
+  Map<String, dynamic> map1 = {
+    "name": "anoop",
+    "age": 10,
+    "mark": 9.1,
+    "phone": 0987654
+  };
+  Map<int, int> map2 = {1: 2};
+  map1.addAll({"email": "anoop@gmail.com"});
+  map1["pincode"] = 680542;
+  map1["age"] = 21;
+  map1.forEach((key, value) {
+    print("$key:$value");
+  });
+  map1.update("name", (value) => "aswin");
+  print(map1.containsKey("name"));
+  print(map1.containsValue("name"));
 }
