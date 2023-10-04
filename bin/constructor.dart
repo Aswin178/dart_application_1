@@ -23,6 +23,7 @@ class A {
     print("NAME : $name");
     print(age == null ? "NO DATA" : "AGE :$age");
     print(year == null ? "NO DATA" : "YEAR :$year");
+    print("------------");
   }
 }
 
